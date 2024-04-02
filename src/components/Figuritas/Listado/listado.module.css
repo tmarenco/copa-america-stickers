@@ -1,0 +1,13 @@
+.seccion {
+    color: red;
+    cursor: pointer;
+}
+
+.seccion:hover {
+    color: black;
+}
+
+
+a {
+    margin: 10px
+}

@@ -1,0 +1,12 @@
+import Album from "./components/Figuritas/Album/Album";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+export default function App() {
+  return (
+    <>
+      <Header />
+      <Album />
+      <Footer />
+    </>
+  );
+}

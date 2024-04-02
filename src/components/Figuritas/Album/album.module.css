@@ -1,0 +1,37 @@
+.secciones {
+    margin: 5rem;
+}
+
+
+.buttons-container{
+    position: fixed;
+    font-size: 30px;
+    bottom: 40px; 
+    right: 2rem;
+    z-index: 1000;
+    color: white;
+}
+
+.button {
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.button:first-child{
+    background-color: darkblue;
+}
+
+
+.button:last-child{
+    background-color: red;
+}
+
+.top {
+    font-size: 30px;
+}

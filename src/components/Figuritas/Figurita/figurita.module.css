@@ -1,0 +1,49 @@
+.figurita-container {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    padding: 1rem;
+    border-radius: 9999px;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+
+    p {
+        font-size: 30px;
+        margin: 16px 0;
+    }
+}
+
+.cantidad {
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    color: white;
+    background-color: red;
+    height: 25px;
+    padding: 10px;
+    border-radius: 9999px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nola {
+    background-color: lightgray;
+}
+
+.late {
+    background-color: #013a75;
+    color: white;
+}
+
+
+.icon {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.disabled {
+    color: lightgray;
+    cursor: default
+}
