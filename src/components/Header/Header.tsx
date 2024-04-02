@@ -11,11 +11,7 @@ export default function Header() {
     <>
       <div className={styles.header}>
         <div className={styles["header-content"]}>
-          <img
-            src="/src/assets/header/logo24.png"
-            alt="logo"
-            className="h-75"
-          />
+          <img src="/assets/header/logo24.png" alt="logo" className="h-75" />
           <div className={styles["header-avance"]}>
             <h3 className={styles.text}>Tu avance:</h3>
             <h3>% {porcentajeCompletado}</h3>

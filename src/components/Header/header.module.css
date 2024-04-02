@@ -1,6 +1,6 @@
 .header {
     height: 10vh;
-    background-image: url('/src/assets/header/fondo-header.jpg');
+    background-image: url('/assets/header/fondo-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

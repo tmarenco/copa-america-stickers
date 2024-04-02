@@ -26,7 +26,7 @@ export default function Seccion({ seccion, modifyQuantity }: Props) {
         </h1>
         <img
           className={styles.logo}
-          src={`/src/assets/flags/${seccion.codigo}.${
+          src={`/assets/flags/${seccion.codigo}.${
             seccion.codigo === "INTR" ? "png" : "svg"
           }`}
           alt={seccion.codigo}

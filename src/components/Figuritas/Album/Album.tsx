@@ -109,7 +109,7 @@ export default function ListaFiguritas() {
         <Listado album={albumData} />
       </div>
       <div className="d-flex justify-content-center">
-        <img src="/src/assets/general/stars.svg" />
+        <img src="/assets/general/stars.svg" />
       </div>
       <div className={styles.secciones}>
         {albumData.secciones?.map((seccion) => (
